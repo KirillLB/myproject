@@ -1,5 +1,5 @@
 <?php
-/*----------My solution--------------*/
+/*----------Мое решение--------------*/
 function numSum($string) {
     $sum = 0;
     for($i=0; $i < strlen($string); $i++) {
@@ -26,7 +26,7 @@ echo isHappy('1222') ? 'True' : 'False';
 echo isHappy('054702') ? 'True' : 'False';
 echo isHappy('00') ? 'True' : 'False';
 
-/*----------Teacher's solution--------------*/
+/*----------Решение учителя--------------*/
 function isHappy($str)
 {
     $balance = 0;
